@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Data", "BullsAndCows.Data\BullsAndCows.Data.csproj", "{045C7C04-360B-4203-AC28-A7EEACC9748C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Models", "BullsAndCows.Models\BullsAndCows.Models.csproj", "{1C4E7ACF-C9CD-432C-A260-3874D80FD893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Web", "BullsAndCows.Web\BullsAndCows.Web.csproj", "{58CD6993-9745-43E7-B1BE-75FFF7F79C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Web.Tests", "BullsAndCows.Web.Tests\BullsAndCows.Web.Tests.csproj", "{68CDB390-0BDD-4A1B-842E-D941305A4D6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9782DAF7-8DA4-4A75-A3CA-009376A72071}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.WCF", "BullsAndCows.WCF\BullsAndCows.WCF.csproj", "{386CB81E-D75E-4E80-90E7-65C4D01AF3CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{045C7C04-360B-4203-AC28-A7EEACC9748C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045C7C04-360B-4203-AC28-A7EEACC9748C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045C7C04-360B-4203-AC28-A7EEACC9748C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045C7C04-360B-4203-AC28-A7EEACC9748C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4E7ACF-C9CD-432C-A260-3874D80FD893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4E7ACF-C9CD-432C-A260-3874D80FD893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4E7ACF-C9CD-432C-A260-3874D80FD893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4E7ACF-C9CD-432C-A260-3874D80FD893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CD6993-9745-43E7-B1BE-75FFF7F79C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CD6993-9745-43E7-B1BE-75FFF7F79C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CD6993-9745-43E7-B1BE-75FFF7F79C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CD6993-9745-43E7-B1BE-75FFF7F79C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CDB390-0BDD-4A1B-842E-D941305A4D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CDB390-0BDD-4A1B-842E-D941305A4D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CDB390-0BDD-4A1B-842E-D941305A4D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CDB390-0BDD-4A1B-842E-D941305A4D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386CB81E-D75E-4E80-90E7-65C4D01AF3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386CB81E-D75E-4E80-90E7-65C4D01AF3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386CB81E-D75E-4E80-90E7-65C4D01AF3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386CB81E-D75E-4E80-90E7-65C4D01AF3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
